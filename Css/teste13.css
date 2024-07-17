@@ -1,0 +1,7 @@
+.object {
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+}

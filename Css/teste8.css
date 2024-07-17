@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    height: 100px;
+    width: 30px;
+    background-color: blue;
+}
+
+.card:hover {
+    scale: 2;
+}

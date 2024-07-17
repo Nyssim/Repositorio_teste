@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+}
