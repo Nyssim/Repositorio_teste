@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Ladding_page from '../views/Ladding_page.vue'
+import teste from '../views/teste.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,6 +23,11 @@ const router = createRouter({
     path: '/Ladding_page',
     name: 'Pagina Inicial',
     component: Ladding_page
+    },
+    {
+      path: '/teste',
+      name: 'Teste',
+      component: teste
     }
   ]
 })

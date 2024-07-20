@@ -12,6 +12,7 @@
                 <RouterLink to="/">Home</RouterLink>
                 <RouterLink to="/about">About</RouterLink>
                 <RouterLink to="/Ladding_page">Pagina Inicial</RouterLink>
+                <RouterLink to="/teste">Pagina de teste</RouterLink>
             </div>
         </nav>
     </header>
